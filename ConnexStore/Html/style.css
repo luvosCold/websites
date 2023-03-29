@@ -1,0 +1,1923 @@
+*{
+    box-sizing: border-box;
+}
+
+header .logo{
+    margin: 10px;
+}
+
+form.example input[type=text] {
+    padding: 5px;
+    margin-left: 607px;
+    font-size: 17px;
+    border: 1px solid rgba(58, 58, 58, 0.24);
+    float: left;
+    width: 30%;
+    background: #f1f1f149;
+    top: 100px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+form.example button {
+    float: left;
+    width: 3%;
+    padding: 5px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid rgba(128, 128, 128, 0.719);
+    border-left: none;
+    cursor: pointer;
+    position: absolute;
+    top: 100px;
+    right: 573px;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header .cart{
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    top: 105px;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    background: #2196F3;
+    padding: 7px;
+    width: 12%;
+}
+
+header i{
+    color: #f1f1f1;
+}
+
+header .fa-shopping-cart{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    margin: 5px;
+    justify-content: space-between;
+}
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(42, 138, 151);
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: rgba(0, 0, 0, 0.897);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+section{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px rgba(31, 30, 30, 0.2);
+    width: 25%;
+    margin: 7px;
+}
+
+section ul li{
+    list-style: none;
+}
+
+section p{
+    color:rgb(8, 8, 8);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+
+
+
+
+/* x */
+.accordion {
+    background-color: rgb(238, 238, 238);
+    color: #444;
+    cursor: pointer;
+    padding: 5px;
+    width: 90%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .active, .accordion:hover {
+    background-color:  #2195f3ab;
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  .accordion:after {
+    content: '\02795';
+    font-size: 15px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796";
+  }
+
+  section img{
+    position: absolute;
+    left: 470px;
+    width: 73%;
+    top: 266px;
+    height: 56%;
+  }
+  
+  
+  .cold{
+    display: flex;
+  }
+
+  .cold .box{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(71, 70, 70, 0.829);
+    width: 11%;
+    height: 40%;
+    margin-left: 470px;
+    position: absolute;
+    top: 750px
+  }
+
+  .cold .boxx{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(71, 70, 70, 0.829);
+    width: 11%;
+    height: 40%;
+    margin-left: 685px;
+    position: absolute;
+    top: 750px
+  }
+
+  .cold .boxxx{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(71, 70, 70, 0.829);
+    width: 11%;
+    height: 40%;
+    margin-left: 899px;
+    position: absolute;
+    top: 750px
+  }
+
+  .cold .boxxxx{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(71, 70, 70, 0.829);
+    width: 11%;
+    height: 40%;
+    margin-left: 1115px;
+    position: absolute;
+    top: 750px
+  }
+
+  .cold .boxxxxx{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(71, 70, 70, 0.829);
+    width: 11%;
+    height: 40%;
+    margin-left: 1339px;
+    position: absolute;
+    top: 750px
+  }
+
+  .cold .boxxxxxx{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(71, 70, 70, 0.829);
+    width: 11%;
+    height: 40%;
+    margin-left: 1559px;
+    position: absolute;
+    top: 750px
+  }
+
+  .cold h2{
+    color: #000000ec;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .cold p{
+    color: #000000c5;
+    text-align: center;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .logo p{
+    color: rgba(255, 255, 255, 0.856);
+    position: absolute;
+    top: 270px;
+    left: 560px;
+    font-size: 30px;
+    font-weight: 540;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .logoom img{
+    position: absolute;
+    left: 510px;
+    width: 2.3%;
+    top: 300px;
+  }
+
+  .main h1{
+    color: #0066ff;
+    position: absolute;
+    top: 400px;
+    left: 510px;
+    font-size: 80px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .main p{
+    color: #fffdff;
+    position: absolute;
+    top: 510px;
+    left: 510px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  hr{
+    padding: 1px;
+    background: rgb(92, 89, 89);
+    width: 72%;
+    margin-left: 26.7%;
+    margin-top: -675px;
+  }
+
+  .payment .pay{
+    border: 1px solid rgba(236, 236, 236, 0.938);
+    box-shadow: 5px 2px 5px 2px rgb(187, 184, 184);
+    width: 25.6%;
+    margin: 5px;
+    height: 60vh;
+  }
+
+  .payment .pay img{
+    width: 100%;
+    padding:  25px 25px 25px 25px;
+  }
+
+  .payment .paygate{
+    border: 1px solid rgba(236, 236, 236, 0.938);
+    box-shadow: 5px 2px 5px 2px rgb(187, 184, 184);
+    width: 25.6%;
+    margin: 5px;
+    height: 40vh;
+  }
+  
+  .payment .paygate img{
+    width: 100%;
+    padding: 25px 25px 25px 25px;
+  }
+
+  .payment .payfast{
+    border: 1px solid rgba(236, 236, 236, 0.938);
+    box-shadow: 5px 2px 5px 2px rgb(187, 184, 184);
+    width: 25.6%;
+    margin: 5px;
+    height: 55vh;
+  }
+
+  .payment .payfast img{
+    width: 100%;
+    padding: 22px 25px 25px 25px;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  .features{
+    display: flex;
+  }
+
+  /* wahoo */
+
+  .features .wahoo{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+    width: 11%;
+    height: 70%;
+    position: absolute;
+    top: 1180px;
+    left: 470px;
+  }
+
+  .features .wahoo h5{
+    border: 1px solid #2196F3;
+    background: #2196F3;
+    color: white;
+    width:30%;
+    text-align: center;
+    margin: 2px;
+  }
+
+  .features .wahoo .heart{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 500px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.842);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+  }
+
+  .features .wahoo img{
+    width: 100%;
+    padding: 40px;
+  }
+
+  
+  .features .wahoo p{
+    position: absolute;
+    top: 230px;
+    left: 25px;
+  }
+
+  .features .wahoo h6{
+    position: absolute;
+    top: 410px;
+    left: 45px;
+  }
+
+  .features .wahoo h2{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .features .wahoo .zizo{
+    position: absolute;
+    left: 40px;
+    top:400px;
+  }
+
+  .features .wahoo h3{
+    position: absolute;
+    top:450px;
+    color: rgba(228, 14, 14, 0.856);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    left: 25%;
+  }
+
+  .features .wahoo .cart{
+    position: absolute;
+    top: 500px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    background: #2196F3;
+    padding: 7px;
+    width: 70%;
+    color: white;
+    left: 25px;
+  }
+
+  .features .wahoo .check{
+    position: absolute;
+    top: 540px;
+    left: 40px;
+  }
+
+  .features .wahoo .check i{
+    color: green;
+  }
+  
+
+  /* wahoo1 */
+ 
+  .features .wahoo1{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+    width: 11%;
+    height: 70%;
+    position: absolute;
+    top: 1180px;
+    left: 690px;
+  }
+
+  .features .wahoo1 h5{
+    border: 1px solid #2196F3;
+    background: #2196F3;
+    color: white;
+    width:30%;
+    text-align: center;
+    margin: 2px;
+  }
+
+  .features .wahoo1 .heart{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 500px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.842);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+  }
+
+  .features .wahoo1 img{
+    width: 100%;
+    padding: 30px;
+    padding: 1px;
+    margin-top: 50px;
+  }
+
+  .features .wahoo1 p{
+    position: absolute;
+    top: 230px;
+    left: 25px;
+  }
+
+  .features .wahoo1 h6{
+    position: absolute;
+    top: 410px;
+    left: 45px;
+  }
+
+  .features .wahoo1 h2{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    top: 270px;
+  }
+
+  .features .wahoo1 .zizo{
+    position: absolute;
+    left: 40px;
+    top:400px;
+  }
+
+  .features .wahoo1 h3{
+    position: absolute;
+    top:450px;
+    color: rgba(228, 14, 14, 0.856);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    left: 25%;
+  }
+
+  .features .wahoo1 .cart{
+    position: absolute;
+    top: 500px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    background: #2196F3;
+    padding: 7px;
+    width: 70%;
+    color: white;
+    left: 25px;
+  }
+
+  .features .wahoo1 .check{
+    position: absolute;
+    top: 544px;
+    left: 20px;
+    font-size: 14px;
+  }
+
+  .features .wahoo1 .check i{
+    color: orange;
+  }
+
+  /* wahoo2 */
+
+  .features .wahoo2{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+    width: 11%;
+    height: 70%;
+    position: absolute;
+    top: 1180px;
+    left: 905px;
+  }
+
+  .features .wahoo2 h5{
+    border: 1px solid #2196F3;
+    background: #2196F3;
+    color: white;
+    width:30%;
+    text-align: center;
+    margin: 2px;
+  }
+
+  .features .wahoo2 .heart{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 500px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.842);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+  }
+
+  .features .wahoo2 img{
+    width: 100%;
+    padding: 30px;
+    padding: 1px;
+    margin-top: 50px;
+  }
+
+  .features .wahoo2 p{
+    position: absolute;
+    top: 230px;
+    left: 25px;
+  }
+
+  .features .wahoo2 h6{
+    position: absolute;
+    top: 410px;
+    left: 45px;
+  }
+
+  .features .wahoo2 h2{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    top: 270px;
+  }
+
+  .features .wahoo2 .zizo{
+    position: absolute;
+    left: 40px;
+    top:400px;
+  }
+
+  .features .wahoo2 h3{
+    position: absolute;
+    top:450px;
+    color: rgba(228, 14, 14, 0.856);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    left: 25%;
+  }
+
+  .features .wahoo2 .cart{
+    position: absolute;
+    top: 500px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    background: #2196F3;
+    padding: 7px;
+    width: 70%;
+    color: white;
+    left: 25px;
+  }
+
+  .features .wahoo2 .check{
+    position: absolute;
+    top: 544px;
+    left: 20px;
+    font-size: 14px;
+  }
+
+  .features .wahoo2 .check i{
+    color: orange;
+  }
+
+  /* wahoo3 */
+
+  .features .wahoo3{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+    width: 11%;
+    height: 70%;
+    position: absolute;
+    top: 1180px;
+    left: 1120px;
+  }
+
+  .features .wahoo3 h5{
+    border: 1px solid #2196F3;
+    background: #2196F3;
+    color: white;
+    width:30%;
+    text-align: center;
+    margin: 2px;
+  }
+
+  .features .wahoo3 .heart{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 500px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.842);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+  }
+
+  .features .wahoo3 img{
+    width: 100%;
+    padding: 30px;
+    padding: 1px;
+    margin-top: 50px;
+  }
+
+  .features .wahoo3 p{
+    position: absolute;
+    top: 230px;
+    left: 25px;
+  }
+
+  .features .wahoo3 h6{
+    position: absolute;
+    top: 410px;
+    left: 45px;
+  }
+
+  .features .wahoo3 h2{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    top: 270px;
+  }
+
+  .features .wahoo3 .zizo{
+    position: absolute;
+    left: 40px;
+    top:400px;
+  }
+
+  .features .wahoo3 h3{
+    position: absolute;
+    top:450px;
+    color: rgba(228, 14, 14, 0.856);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    left: 25%;
+  }
+
+  .features .wahoo3 .cart{
+    position: absolute;
+    top: 500px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    background: #2196F3;
+    padding: 7px;
+    width: 70%;
+    color: white;
+    left: 25px;
+  }
+
+  .features .wahoo3 .check{
+    position: absolute;
+    top: 540px;
+    left: 40px;
+  }
+
+  .features .wahoo3 .check i{
+    color: green;
+  }
+
+  /* wahoo4 */
+
+  .features .wahoo4{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+    width: 11%;
+    height: 70%;
+    position: absolute;
+    top: 1180px;
+    left: 1340px;
+  }
+
+  .features .wahoo4 h5{
+    border: 1px solid #2196F3;
+    background: #2196F3;
+    color: white;
+    width:30%;
+    text-align: center;
+    margin: 2px;
+  }
+
+  .features .wahoo4 .heart{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 500px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.842);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+  }
+
+  .features .wahoo4 img{
+    width: 100%;
+    padding: 30px;
+    padding: 1px;
+    margin-top: 50px;
+  }
+
+  .features .wahoo4 p{
+    position: absolute;
+    top: 230px;
+    left: 25px;
+  }
+
+  .features .wahoo4 h6{
+    position: absolute;
+    top: 410px;
+    left: 45px;
+  }
+
+  .features .wahoo4 h2{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    top: 270px;
+  }
+
+  .features .wahoo4 .zizo{
+    position: absolute;
+    left: 40px;
+    top:400px;
+  }
+
+  .features .wahoo4 h3{
+    position: absolute;
+    top:450px;
+    color: rgba(228, 14, 14, 0.856);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    left: 25%;
+  }
+
+  .features .wahoo4 .cart{
+    position: absolute;
+    top: 500px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    background: #2196F3;
+    padding: 7px;
+    width: 70%;
+    color: white;
+    left: 25px;
+  }
+
+  .features .wahoo4 .check{
+    position: absolute;
+    top: 540px;
+    left: 40px;
+  }
+
+  .features .wahoo4 .check i{
+    color: green;
+  }
+
+  /* wahoo5 */
+
+  .features .wahoo5{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+    width: 11%;
+    height: 70%;
+    position: absolute;
+    top: 1180px;
+    left: 1560px;
+  }
+
+  .features .wahoo5 h5{
+    border: 1px solid #2196F3;
+    background: #2196F3;
+    color: white;
+    width:30%;
+    text-align: center;
+    margin: 2px;
+  }
+
+  .features .wahoo5 .heart{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 500px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.842);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+  }
+
+  .features .wahoo5 img{
+    width: 100%;
+    padding: 30px;
+    padding: 1px;
+    margin-top: 50px;
+  }
+
+  .features .wahoo5 p{
+    position: absolute;
+    top: 230px;
+    left: 25px;
+  }
+
+  .features .wahoo5 h6{
+    position: absolute;
+    top: 410px;
+    left: 45px;
+  }
+
+  .features .wahoo5 h2{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    top: 270px;
+  }
+
+  .features .wahoo5 .zizo{
+    position: absolute;
+    left: 40px;
+    top:400px;
+  }
+
+  .features .wahoo5 h3{
+    position: absolute;
+    top:450px;
+    color: rgba(228, 14, 14, 0.856);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    left: 25%;
+  }
+
+  .features .wahoo5 .cart{
+    position: absolute;
+    top: 500px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    background: #2196F3;
+    padding: 7px;
+    width: 70%;
+    color: white;
+    left: 25px;
+  }
+
+  .features .wahoo5 .check{
+    position: absolute;
+    top: 540px;
+    left: 40px;
+  }
+
+  .features .wahoo5 .check i{
+    color: green;
+  }
+
+  /* SALE */
+
+  .sale{
+    position: absolute;
+    top: 1760px;
+    left: 470px;
+    font-size: 15px;
+    font-weight:bolder;
+    text-decoration: underline;
+  }
+
+  /* features2 */
+  .features2{
+    display: flex;
+  } 
+  .features2{
+    border: 1px solid rgb(245, 239, 239);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+    width: 11%;
+    height: 70%;
+    position: absolute;
+    left: 470px;
+    top: 1860px;
+  }
+
+  .features2 .bose h5{
+    border: 1px solid transparent;
+    background: rgba(255, 0, 0, 0.911);
+    color: white;
+    width:50%;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .features2 .bose .heart{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 500px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.842);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+  }
+
+  .features2 .bose img{
+    width: 100%;
+    padding: 50px;
+    padding: 1px;
+    margin-top: 50px;
+  }
+
+  .features2 .bose p{
+    position: absolute;
+    top: 230px;
+    left: 35px;
+  }
+
+  .features2 .bose h6{
+    position: absolute;
+    top: 410px;
+    left: 45px;
+  }
+
+  .features2 .bose h2{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    top: 270px;
+  }
+
+  .features2 .bose .zizo{
+    position: absolute;
+    left: 40px;
+    top:400px;
+  }
+
+  .features2 .bose h3{
+    position: absolute;
+    top:450px;
+    color: rgba(228, 14, 14, 0.856);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    left: 25%;
+  }
+
+  .features2 .bose h4{
+    position: absolute;
+    top:470px;
+    color: rgba(89, 89, 90, 0.856);
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    left: 30%;
+    text-decoration: line-through;
+  }
+
+  .features2 .bose .cart{
+    position: absolute;
+    top: 510px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    background: #2196F3;
+    padding: 7px;
+    width: 70%;
+    color: white;
+    left: 25px;
+  }
+
+  .features2 .bose .check{
+    position: absolute;
+    top: 550px;
+    left: 40px;
+  }
+
+  .features2 .bose .check i{
+    color: green;
+  }
+
+  /* pioneer */
+  .features2 .pioneer{
+    border: 1px solid rgb(245, 239, 239);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+    position: absolute;
+    left:220px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .features2 .pioneer h5{
+    border: 1px solid transparent;
+    background: rgba(255, 0, 0, 0.911);
+    color: white;
+    width:50%;
+    text-align: center;
+    margin: 6px;
+    height: 25px;
+  }
+
+  .features2 .pioneer .one h5{
+    border: 1px solid transparent;
+    background-color: #2195f3d3;
+    width: 65%;
+    margin: 6px;
+    margin-top: -4px;
+    height: 25px;
+  }
+
+  
+  .features2 .pioneer .two h5{
+    border: 1px solid transparent;
+    background-color: #2195f3;
+    width: 25%;
+    margin: 6px;
+    margin-top: -4px;
+    height: 25px;
+  }
+
+  .features2 .pioneer .three h5{
+    border: 1px solid transparent;
+    background-color: rgba(255, 0, 0, 0.911);
+    width: 40%;
+    margin: 6px;
+    margin-top: -4px;
+    height: 25px;
+  }
+
+  .features2 .pioneer .heart{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 500px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.842);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+  }
+
+  .features2 .pioneer img{
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    top: 120px;
+  }
+
+  .features2 .pioneer  p{
+    position: absolute;
+    top: 230px;
+    left: 20px;
+  }
+
+  .features2 .pioneer h6{
+    position: absolute;
+    top: 410px;
+    left: 45px;
+  }
+
+  .features2 .pioneer h2{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    top: 270px;
+    left: 10px;
+  }
+
+  .features2 .pioneer .zizo{
+    position: absolute;
+    left: 40px;
+    top:400px;
+  }
+
+  .features2 .pioneer h3{
+    position: absolute;
+    top:450px;
+    color: rgba(228, 14, 14, 0.856);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    left: 25%;
+  }
+
+  .features2 .pioneer h4{
+    position: absolute;
+    top:470px;
+    color: rgba(89, 89, 90, 0.856);
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    left: 30%;
+    text-decoration: line-through;
+  }
+
+  .features2 .pioneer .cart{
+    position: absolute;
+    top: 510px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    background: #2196F3;
+    padding: 7px;
+    width: 70%;
+    color: white;
+    left: 25px;
+  }
+
+  .features2 .pioneer .check{
+    position: absolute;
+    top: 550px;
+    left: 25px;
+  }
+
+  .features2 .pioneer .check i{
+    color: orange;
+  }
+
+  /* pico */
+
+  .features2 .pico{
+    border: 1px solid rgb(245, 239, 239);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+    position: absolute;
+    left:435px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .features2 .pico h5{
+    border: 1px solid transparent;
+    background: rgba(255, 0, 0, 0.911);
+    color: white;
+    width:50%;
+    text-align: center;
+    margin: 6px;
+    height: 25px;
+  }
+
+  .features2 .pico .heart{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 500px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.842);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+  }
+
+  .features2 .pico img{
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    top: 50px;
+    height: 25%;
+  }
+
+  .features2 .pico p{
+    position: absolute;
+    top: 230px;
+    left: 20px;
+  }
+
+  .features2 .pico h6{
+    position: absolute;
+    top: 410px;
+    left: 45px;
+  }
+
+  .features2 .pico h2{
+    position: absolute;
+    font-size: 17px;
+    font-weight: 700;
+    top: 270px;
+    left: 10px;
+  }
+
+  .features2 .pico .zizo{
+    position: absolute;
+    left: 40px;
+    top:400px;
+  }
+
+  .features2 .pico h3{
+    position: absolute;
+    top:450px;
+    color: rgba(228, 14, 14, 0.856);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    left: 25%;
+  }
+
+  .features2 .pico h4{
+    position: absolute;
+    top:470px;
+    color: rgba(89, 89, 90, 0.856);
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    left: 30%;
+    text-decoration: line-through;
+  }
+
+  .features2 .pico .cart{
+    position: absolute;
+    top: 510px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    background: #2196F3;
+    padding: 7px;
+    width: 70%;
+    color: white;
+    left: 25px;
+  }
+
+  .features2 .pico .check{
+    position: absolute;
+    top: 550px;
+    left: 40px;
+  }
+
+  .features2 .pico .check i{
+    color: green
+  }
+
+  /* pioneer2 */
+  .features2 .pioneer2{
+    border: 1px solid rgb(245, 239, 239);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+    position: absolute;
+    left:650px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .features2 .pioneer2 h5{
+    border: 1px solid transparent;
+    background: rgba(255, 0, 0, 0.911);
+    color: white;
+    width:50%;
+    text-align: center;
+    margin: 6px;
+    height: 25px;
+  }
+
+  .features2 .pioneer2 .three h5{
+    border: 1px solid transparent;
+    background-color: rgba(255, 0, 0, 0.911);
+    width: 40%;
+    margin: 6px;
+    margin-top: -4px;
+    height: 25px;
+  }
+
+  .features2 .pioneer2 .heart{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 500px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.842);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+  }
+
+  .features2 .pioneer2 img{
+    position: absolute;
+    width: 100%;
+    padding: 1px;
+    top: 70px;
+    height: 23%;
+  }
+
+  .features2 .pioneer2 p{
+    position: absolute;
+    top: 230px;
+    left: 20px;
+  }
+
+  .features2 .pioneer2 h6{
+    position: absolute;
+    top: 410px;
+    left: 45px;
+  }
+
+  .features2 .pioneer2 h2{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    top: 270px;
+    left: 16px;
+  }
+
+  .features2 .pioneer2 .zizo{
+    position: absolute;
+    left: 40px;
+    top:400px;
+  }
+
+  .features2 .pioneer2 h3{
+    position: absolute;
+    top:450px;
+    color: rgba(228, 14, 14, 0.856);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    left: 25%;
+  }
+
+  .features2 .pioneer2 h4{
+    position: absolute;
+    top:470px;
+    color: rgba(89, 89, 90, 0.856);
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    left: 30%;
+    text-decoration: line-through;
+  }
+
+  .features2 .pioneer2 .cart{
+    position: absolute;
+    top: 510px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    background: #2196F3;
+    padding: 7px;
+    width: 70%;
+    color: white;
+    left: 25px;
+  }
+
+  .features2 .pioneer2 .check{
+    position: absolute;
+    top: 550px;
+    left: 40px;
+  }
+
+  .features2 .pioneer2 .check i{
+    color: green
+  }
+
+  /* meta */
+
+  .features2 .meta{
+    border: 1px solid rgb(245, 239, 239);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+    position: absolute;
+    left:869px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .features2 .meta h5{
+    border: 1px solid transparent;
+    background: rgba(255, 0, 0, 0.911);
+    color: white;
+    width:50%;
+    text-align: center;
+    margin: 6px;
+    height: 25px;
+  }
+
+  .features2 .meta .three h5{
+    border: 1px solid transparent;
+    background-color: rgba(255, 0, 0, 0.911);
+    width: 40%;
+    margin: 6px;
+    margin-top: -4px;
+    height: 25px;
+  }
+
+  .features2 .meta .heart{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 500px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.842);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+  }
+
+  .features2 .meta img{
+    position: absolute;
+    width: 100%;
+    padding: 1px;
+    top: 70px;
+    height: 23%;
+  }
+
+  .features2 .meta p{
+    position: absolute;
+    top: 230px;
+    left: 20px;
+  }
+
+  .features2 .meta h6{
+    position: absolute;
+    top: 410px;
+    left: 45px;
+  }
+
+  .features2 .meta h2{
+    position: absolute;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    top: 270px;
+    left: 7px;
+  }
+
+  .features2 .meta .zizo{
+    position: absolute;
+    left: 40px;
+    top:400px;
+  }
+
+  .features2 .meta h3{
+    position: absolute;
+    top:450px;
+    color: rgba(228, 14, 14, 0.856);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    left: 25%;
+  }
+
+  .features2 .meta h4{
+    position: absolute;
+    top:470px;
+    color: rgba(89, 89, 90, 0.856);
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    left: 30%;
+    text-decoration: line-through;
+  }
+
+  .features2 .meta .cart{
+    position: absolute;
+    top: 510px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    background: #2196F3;
+    padding: 7px;
+    width: 70%;
+    color: white;
+    left: 25px;
+  }
+
+  .features2 .meta .check{
+    position: absolute;
+    top: 550px;
+    left: 40px;
+  }
+
+  .features2 .meta .check i{
+    color: green;
+  }
+
+  /* picoco */
+
+  .features2 .picoco{
+    border: 1px solid rgb(245, 239, 239);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+    position: absolute;
+    left:1090px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .features2 .picoco h5{
+    border: 1px solid transparent;
+    background: rgba(255, 0, 0, 0.911);
+    color: white;
+    width:50%;
+    text-align: center;
+    margin: 6px;
+    height: 25px;
+  }
+
+  .features2 .picoco .three h5{
+    border: 1px solid transparent;
+    background-color: rgba(255, 0, 0, 0.911);
+    width: 40%;
+    margin: 6px;
+    margin-top: -4px;
+    height: 25px;
+  }
+
+  .features2 .picoco .heart{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 500px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.842);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.829);
+  }
+
+  .features2 .picoco img{
+    position: absolute;
+    width: 100%;
+    padding: 1px;
+    top: 70px;
+    height: 23%;
+  }
+
+  .features2 .picoco p{
+    position: absolute;
+    top: 230px;
+    left: 20px;
+  }
+
+  .features2 .picoco h6{
+    position: absolute;
+    top: 410px;
+    left: 45px;
+  }
+
+  .features2 .picoco h2{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    top: 270px;
+  }
+
+  .features2 .picoco .zizo{
+    position: absolute;
+    left: 40px;
+    top:400px;
+  }
+
+  .features2 .picoco h3{
+    position: absolute;
+    top:450px;
+    color: rgba(228, 14, 14, 0.856);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    left: 25%;
+  }
+
+  .features2 .picoco h4{
+    position: absolute;
+    top:470px;
+    color: rgba(89, 89, 90, 0.856);
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    left: 30%;
+    text-decoration: line-through;
+  }
+
+  .features2 .picoco .cart{
+    position: absolute;
+    top: 510px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    background: #2196F3;
+    padding: 7px;
+    width: 70%;
+    color: white;
+    left: 25px;
+  }
+
+  .features2 .picoco .check{
+    position: absolute;
+    top: 550px;
+    left: 10px;
+  }
+
+  .features2 .picoco .check i{
+    color: orange;
+  }
+
+  /* browse */
+
+  .browse{
+    margin-left: 900px;
+  }
+
+  .browse h3{
+    margin-top: 100px;
+    color: #000000;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  /* circles */
+
+  .w3-container{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 400px;
+  }
+
+  .w3-container h2{
+    position: relative;
+    top: 180px;
+    left: -150px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .w3-button{
+  
+    position: relative;
+    top: 100px;
+  }
+  
+  /* our_services */
+  .our_services{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 250px;
+    margin-left: 20px;
+  }
+
+  .services i{
+    color: blue;
+    padding: 2px 20px;  
+    font-size: 50px; 
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    margin-left: 30px;
+  }
+
+  .services h2{
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .services p{
+    text-align: center;
+    font-size: 13px;
+  }
+
+  /* footer */
+  footer .top{
+    display: flex;
+    background: #000000;
+    color: white;
+    padding: 30px 100px;
+  }
+
+  footer .top h2{
+    font-size: 15px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+
+  footer .top input[type=text]{
+    width: 30%;
+    height: 40px;
+    padding: 12px;
+    margin-left: 160px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+
+  footer .top button[type=submit]{
+    margin-left: 250px;
+    width: 15%;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border-color: white;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  footer .top button:hover{
+    background-color: green;
+
+  }
+
+  footer .heading h1{
+    color: rgb(161, 161, 161);
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    position: relative;
+    left: 130px;
+  }
+
+  footer .heading h1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 15px;
+    background: rgba(44, 221, 0, 0.822);
+  }
+
+  /* list */
+  footer{
+    position: relative;
+    background: rgba(0, 0, 0, 0.973);
+    height: 580px;
+  }
+
+  footer .link-boxeS{
+    display: flex;
+    margin-left: 90px;
+  }
+
+  .link-boxeS .box{
+    width: calc(100% 5 - 10px);
+  }
+
+  .link-boxeS .box .link_name{
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    position: relative;
+    list-style: none;
+  }
+
+  .link-boxeS .box li{
+    margin: 6px 0;
+    list-style: none;
+  }
+
+  .link-boxeS .box li a{
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.4s ease;
+  }
+
+  .link-boxeS .box li a:hover{
+    opacity: 1;
+    text-decoration: underline;
+    color: red;
+  }
+
+  footer .bottom{
+    position: relative;
+    left: 1300px;
+    bottom: 300px;
+  }
+
+  footer .bottom .box-login h3{
+    color: rgb(33, 121, 33);
+    font-weight: 600;
+    position: absolute;
+    top: -90px;
+  }
+  /* social */
+  .btn {
+    color: rgb(255, 255, 255);
+    padding: 2px 20px;  
+    font-size: 25px; 
+    cursor: pointer;
+    background: transparent;
+    border-radius: 12px;
+  }
+  
+  .btn:hover {
+    background-color: royalblue;
+  }
+  
+
+  .btn1 {
+    color: rgb(255, 255, 255);
+    padding: 2px 16px; 
+    font-size: 25px; 
+    cursor: pointer;
+    background: transparent;
+    border-radius: 12px;
+  }
+  
+  .btn1:hover {
+    background-color: rgb(221, 32, 120);
+  }
+  
+  .btn2 {
+    color: rgb(255, 255, 255);
+    padding: 2px 16px; 
+    font-size: 25px; 
+    cursor: pointer;
+    background: transparent;
+    border-radius: 12px;
+  }
+  
+  .btn2:hover {
+    background-color: rgb(32, 168, 221);
+  }
+  
+  .btn3 {
+    color: rgb(255, 255, 255);
+    padding: 2px 16px; 
+    font-size: 25px; 
+    cursor: pointer;
+    background: transparent;
+    border-radius: 12px;
+  }
+  
+  .btn3:hover {
+    background-color: rgb(221, 32, 32);
+  }
+  
+  .bottom .our-app{
+    margin-top: 40px;
+  }
+
+  .policy_terms{
+    background: white;
+    right: 2px;
+  }
+
+  footer p{
+    color: rgb(58, 55, 55);
+    position: absolute;
+    left: -1300px;
+    top: 345px;
+    background: #000000;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 15px;
+  }
