@@ -1,0 +1,48 @@
+.center {
+ text-align: center;
+ background-color: white;
+}
+
+.background {
+ color: #FFFFFF;
+ font-size: 20px;
+}
+
+nav li { 
+   border: 1px solid #000000;
+   
+}
+
+li {
+  display: inline;
+  display-color: white;
+}
+
+.loc {
+ text-align: center;
+ color: white;
+}
+
+.vuyo {
+ text-decoration: underline overline;
+ color: #FFFFFF;
+}
+
+.mane {
+ text-align: center;
+ text-decoration: underline;
+}
+
+.cold {
+ text-align: center;
+}
+
+.qw {
+ text-align: center;
+ color: #FFFFFF;
+}
+
+.footer{
+ color: #FFFFFF;
+ font-family: arial;
+}

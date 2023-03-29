@@ -1,0 +1,52 @@
+.center {
+ text-align: center;
+ background-color: white;
+}
+
+.background {
+ color: #FFFFFF;
+ font-size: 20px;
+}
+
+nav li { 
+   border: 1px solid #000000;
+   
+}
+
+li {
+  display: inline;
+  display-color: white;
+}
+
+.banner {
+ font-size: 20px;
+ font-family: arial black;
+ height: 700px;
+ font-weight: 13px;
+ text-align: center;
+ color: #FFFFFF;
+}
+
+.style {
+ font-family: artiste;
+ font-size: 18px;
+ color: #FFFFFF;
+ text-align: below;
+ background-color: teal;
+}
+
+.music {
+ background-color: grey;
+ height: 180px;
+ font-size: 20px;
+ text-align: center;
+ opacity: 0.5;
+ color: white; 
+}
+
+.footer{
+ color: #FFFFFF;
+ font-family: arial;
+}
+
+
